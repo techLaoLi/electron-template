@@ -10,6 +10,7 @@ import {
   DownloadOutlined,
   FolderOpenOutlined,
 } from '@ant-design/icons';
+import logo from './logo.svg';
 import './App.css';
 
 const { Header, Content, Footer, Sider } = Layout;
@@ -125,7 +126,12 @@ function App() {
         />
       </Sider>
       <Layout>
-        <Header style={{ padding: 0, background: colorBgContainer }} />
+        <Header style={{ padding: 0, background: colorBgContainer }}>
+          <div className="header-content">
+            <img src={logo} className="app-logo" alt="logo" />
+            <span className="app-title">Electron React Antd Template</span>
+          </div>
+        </Header>
         <Content style={{ margin: '0 16px' }}>
           <div style={{ padding: 24, minHeight: 360, background: colorBgContainer }}>
             {selectedKey === '1' && (

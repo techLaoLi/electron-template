@@ -38,3 +38,21 @@
   background: rgba(255, 255, 255, 0.2);
   border-radius: 6px;
 }
+
+.header-content {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  height: 100%;
+}
+
+.app-logo {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.app-title {
+  color: #282c34;
+  font-size: 18px;
+  font-weight: bold;
+}
