@@ -1,0 +1,56 @@
+# Dependencies
+node_modules
+
+# Build outputs
+build
+dist
+release
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode
+.idea
+
+# Environment files
+.env
+
+# Electron build files
+*.exe
+*.dmg
+*.AppImage
+
+# Temporary files
+tmp
+temp
+
+# npm debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# parcel-bundler cache
+.cache
+
+# next.js build output
+.next
+
+# react build output
+build
+
+# vue build output
+dist
+
+# typescript cache
+*.tsbuildinfo
